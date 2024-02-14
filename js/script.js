@@ -1,4 +1,4 @@
-const audio = new Audio('Love.mp3');
+const audio = new Audio('music/Love.mp3');
 const muteButton = document.getElementById('mute-button');
 muteButton.addEventListener('click', () => {
   if (audio.paused) {
